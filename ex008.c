@@ -5,10 +5,10 @@ int main(void) {
     printf("\nDigite um número para contagem regressiva: ");
     scanf("%d", &contador);
     
-    for (; contador >= 1; contador--) {
-        printf("%d ", contador); // Adicionei um espaço após %d para separar os números
+    for (contador; contador >= 1; contador--) {
+        printf("%d ", contador); 
     }
     
-    printf("\n"); // Adicionei uma quebra de linha para melhorar a saída
+    printf("\n"); 
     return 0;
 }

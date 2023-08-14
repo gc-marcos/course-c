@@ -5,7 +5,7 @@ int main (int argc, char ** argv) {
     float nota2;
     float media;
 
-    printf("Insira nata 1: ");
+    printf("Insira nota 1: ");
     scanf("%f", &nota1);
 
     printf("\nInsira nota 2: ");
@@ -13,7 +13,7 @@ int main (int argc, char ** argv) {
 
     media = (nota1 + nota2) / 2;
 
-    printf("Media; %2f", media);
+    printf("Media; %.2f", media);
 
     return 0;
 }
