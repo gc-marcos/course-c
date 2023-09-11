@@ -4,7 +4,7 @@ int main() {
     float valor, desc, total;
     printf("\n Didite o valor da compra: R$ ");
     scanf("%f", &valor);
-    printf("Digite a letra que representa o valor do desconta: ");
+    printf("Digite a letra que representa o valor do desconta: \n");
     printf("a. azul\n");
     printf("v. vermelho\n");
     printf("b. branco\n");
